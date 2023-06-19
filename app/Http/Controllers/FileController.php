@@ -20,5 +20,6 @@ class FileController extends Controller
         Storage::put("public/file/{$name}", $file);
 
         return view('show-file');
+        dd();
     }
 }
